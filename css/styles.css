@@ -1,13 +1,13 @@
+@import url("./header/header.css");
+
 :root{
     --cor-de-fundo: #EBECEE ;
-    
+    --branco : #ffffff;
 
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    box-sizing: border-box;
 }
 
-h1 {
-    background-color: orange;
-}
