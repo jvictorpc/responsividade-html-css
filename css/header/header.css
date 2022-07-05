@@ -1,6 +1,6 @@
 .cabecalho__menu-hamburguer {
-    width: 38px;
-    height: 38px;
+    width: 24px;
+    height: 24px;
     background-image: url(../../img/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -9,7 +9,6 @@
 
 .cabecalho {
     background-color: var(--branco);
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +16,7 @@
 
 .container {
     display: flex;
+    height: 100%;
     align-items: center;
 
 }
