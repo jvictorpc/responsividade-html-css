@@ -31,8 +31,31 @@
     display: none;
     position:absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .container__botao:checked ~ .menu-lista {
     display: block;
+}
+
+.menu-lista__titulo, .menu-lista__item {
+    padding: 1em;
+    background-color: var(--branco);
+
+}
+.menu-lista__titulo {
+    color: var(--laranja);
+}
+
+.menu-lista__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    font-family: var(--fonte-poppins);
+    font-style: normal;
+    font-size: 16px;
+    
+
 }
