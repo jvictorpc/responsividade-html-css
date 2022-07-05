@@ -12,15 +12,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container {
     display: flex;
-    height: 100%;
+    height: 80px;
     align-items: center;
+    justify-content: stretch;
 
 }
 
-.container__imagem {
+.container__imagem{
     padding: 1em;
+}
+
+.menu-lista{
+    display: none;
+    position:absolute;
+    top: 100%;
+}
+
+.container__botao:checked ~ .menu-lista {
+    display: block;
 }
