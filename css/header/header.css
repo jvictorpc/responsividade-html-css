@@ -45,6 +45,8 @@
 }
 .menu-lista__titulo {
     color: var(--laranja);
+    font-family: var(--fonte-poppins);
+    font-weight: 700;
 }
 
 .menu-lista__link {
@@ -58,4 +60,8 @@
     font-size: 16px;
     
 
+}
+
+.container__botao {
+    display: none;
 }
